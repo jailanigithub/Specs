@@ -31,8 +31,7 @@ Pod::Spec.new do |s|
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-   s.source_files  = 'SpotIt', 'ColorPickerControl/*.{h,m,xib}', 'MovableEditorView/*.{h,m,xib}', 'RecordControl/*.{h,m}', 'ScribbleControl/*.{h,m}', 'SnapShotControl/*.{h,m}', 
- 'SnapshotView/*.{h,m}', 'TextView/*.{h,m}', 'UIController+SnapShotButton/*.{h,m}'
+   s.source_files  = 'SpotIt', 'ColorPickerControl/**/*.{h,m,xib,xcconfig}'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
